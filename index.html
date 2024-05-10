@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para minha Ty</title>
+    
+    <link rel="website icon" href="https://i.ibb.co/1f5Sfbj/IMG-20240401-144303-455.jpg">
+    <style>
+        body{
+            background-color:#ff84c6;
+        }
+
+        .painel{
+            margin: auto;
+            background-color:#E0FFF2;
+            width: 550px;
+            height: 700px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family:'Courier';
+            color:#ff84c6;
+        }
+        #sim{
+            height: 45px;
+            width: 65px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -75px;
+        }
+        #nao{
+            position: absolute;
+            height: 45px;
+            width: 65px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+        }
+
+    .p {
+      font-family: Arial;
+      font-size: medium;
+    }
+  </style>
+<body>
+    
+    
+<audio controls autoplay muted>
+  <source src="musicARC1.mp3" type="audio/mp3">
+    
+    </type>
+  
+</audio>    
+  </p>
+</body>
+
+    </style>
+
+</head>
+<body>
+  
+    <div class="painel">
+      
+        <h1>Do I Wanna Know</h1>
+      <p> If this feeling flows both ways? 
+    </p>
+      
+<a href="https://ibb.co/1f5Sfbj"> <img src="https://i.ibb.co/1f5Sfbj/IMG-20240401-144303-455.jpg" alt="IMG-20240401-144303-455" border="0" height="200" width="200" style="border-radius: 20px">
+
+<img src="https://gifman.net/wp-content/uploads/2019/06/ursinhos-fofos-apaixonados.gif" alt="" border="0" height="200" width="200" style="border-radius: 20px">
+
+<img src="https://gifman.net/wp-content/uploads/2019/06/ursinhos-fofos-beijos.gif" alt="" border="0" height="200" width="200" style="border-radius: 20px">
+
+<a href="https://ibb.co/b3p13S5"><img src="https://i.ibb.co/b3p13S5/20240509-230219.jpg" alt="20240509-230219" border="0" height="200" width="200" style="border-radius: 20px">
+
+
+    </a>
+
+
+        <h2>Fique ao meu lado para sempre
+        </h2> 
+        
+        
+
+        <a href="https://youtu.be/9Sk7RQtSl5g?si=7wnENYK39_xHWLQa"><button id="sim" > Sim! </button></a>
+        <button onmouseover="fuja()" id="nao"> Não! </button>
+        
+        
+    </div>
+    
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+
+        }
+    </script>
+
+</body>
+</html>
